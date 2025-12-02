@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indian Restaurant</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Indian Spice</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">&#9776;</div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>The Authentic Taste of India</h1>
+            <p>Experience flavours that tell our cultural story</p>
+            <a href="#menu" class="btn">Explore Menu</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>
+            Welcome to Indian Spice, where authenticity meets flavour. We bring you traditional Indian 
+            cuisines made using age-old cooking techniques and aromatic spices from different regions 
+            of India. Every dish is prepared with passion, using handpicked ingredients to give you the 
+            best dining experience. Step in and enjoy warm hospitality, a cosy ambience, and food that 
+            truly feels like home.
+        </p>
+    </section>
+
+    <!-- Menu -->
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-grid">
+
+            <div class="menu-item">
+                <img src="images/img1.jpg" alt="chicken special">
+                <h3>Chicken Special</h3>
+                <span>₹299</span>
+            </div>
+
+            <div class="menu-item">
+                <img src="images/img2.jpg" alt="chicken gravy">
+                <h3>Chicken Gravy</h3>
+                <span>₹199</span>
+            </div>
+
+            <div class="menu-item">
+                <img src="images/img3.jpg" alt="tandoori chicken">
+                <h3>Tandoori Chicken</h3>
+                <span>₹249</span>
+            </div>
+
+            <div class="menu-item">
+                <img src="images/chicken-lollipop.jpg" alt="chicken lollipop">
+                <h3>Chicken Lollipop</h3>
+                <span>₹189</span>
+            </div>
+
+            <div class="menu-item">
+                <img src="images/veg-biryani-claypot.webp" alt="veg biryani">
+                <h3>Veg Biryani</h3>
+                <span>₹279</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery">
+        <h2>Gallery Album</h2>
+
+        <div class="gallery-grid">
+            <div class="gallery-card"><img src="images/img1.jpg" alt=""></div>
+            <div class="gallery-card"><img src="images/img2.jpg" alt=""></div>
+            <div class="gallery-card"><img src="images/img3.jpg" alt=""></div>
+            <div class="gallery-card"><img src="images/chicken-lollipop.jpg" alt=""></div>
+            <div class="gallery-card"><img src="images/veg-biryani-claypot.webp" alt=""></div>
+            <div class="gallery-card"><img src="images/img3.jpg" alt=""></div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+<section id="reviews" class="reviews">
+    <h2>Customer Reviews</h2>
+
+    <div class="review-grid">
+
+        <div class="review-card">
+            <h3>Prakash</h3>
+            <div class="stars">★★★★★</div>
+            <p>The food was absolutely delicious! Authentic taste and amazing service. Highly recommended!</p>
+        </div>
+
+        <div class="review-card">
+            <h3>Swetha</h3>
+            <div class="stars">★★★★☆</div>
+            <p>Great ambience and fresh dishes. The biryani was the highlight. Will visit again!</p>
+        </div>
+
+        <div class="review-card">
+            <h3>Rohit</h3>
+            <div class="stars">★★★★★</div>
+            <p>One of the best Indian restaurants in Vizag! Perfect flavours and good hospitality.</p>
+        </div>
+
+    </div>
+
+    <!-- Comment Form -->
+    <h3 class="comment-title">Leave a Comment</h3>
+
+    <form class="comment-form">
+        <input type="text" placeholder="Your Name" required>
+        
+        <select required>
+            <option value="">Select Rating</option>
+            <option value="5">★★★★★ - Excellent</option>
+            <option value="4">★★★★☆ - Good</option>
+            <option value="3">★★★☆☆ - Average</option>
+            <option value="2">★★☆☆☆ - Poor</option>
+            <option value="1">★☆☆☆☆ - Bad</option>
+        </select>
+
+        <textarea placeholder="Write your comment..." required></textarea>
+
+        <button type="submit" class="btn review-btn">Submit Review</button>
+    </form>
+
+</section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>📍 west godavari, Andhra Pradesh</p>
+        <p>📞 +91 98765 43210</p>
+        <p>📧 contact@indianspice.com</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Indian Spice. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
